@@ -1,0 +1,9 @@
+#QUESTÃO 05: Fatorial de um número usando o while.
+n = int(input('Digite um número inteiro:'))
+while n < 0:
+    n = int(input('Você digitou um número inválido, digite um novo número inteiro:'))
+fatorial = 1
+while n != 0:
+    fatorial *= n
+    n = n-1
+print(f'O fatorial é: {fatorial}')
